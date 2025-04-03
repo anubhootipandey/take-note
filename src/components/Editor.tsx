@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Save, FileDown, Trash2, Bold, Italic, Type, Highlighter, Palette, Text as TextSize, CopyleftIcon as FontStyle } from 'lucide-react';
+import { Save, FileDown, Trash2, Bold, Italic, Type, Highlighter, Palette, Text as TextSize } from 'lucide-react';
 import { RootState } from '../types';
 import { updateNote, deleteNote } from '../store/notesSlice';
 import html2pdf from 'html2pdf.js';
