@@ -60,10 +60,22 @@ src/
 * Drag-and-drop allows users to move notes across folders.
 * Global dark/light theme toggle using Tailwind’s dark mode class.
 * Redux slices manage notes, folders, and UI state.
+  
+---
+
+> ✨ Want to contribute? Open a pull request or issue!
 
 ---
 
-## 📦 Installation
+## 🤝 Contribute
+
+We welcome contributions from the everyone! Follow these steps to get started:
+
+### 1. Fork the Repository
+
+Click the **Fork** button in the top right corner of this page to create a copy of this repository under your GitHub account.
+
+### 2. Clone Your Fork
 
 ```bash
 # Clone the repo
@@ -76,10 +88,6 @@ npm install
 # Run the development server
 npm run dev
 ```
-
----
-
-> ✨ Want to contribute? Open a pull request or issue!
 
 ---
 
