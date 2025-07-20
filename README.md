@@ -85,11 +85,10 @@ npm run dev
 
 ## 📷 Screenshots
 
-| Light Mode                                    |
-| --------------------------------------------- | -------------------------------------------- |
-| <img width="1360" height="542" alt="Screenshot 2025-07-21 002621" src="https://github.com/user-attachments/assets/ecf9dd4f-76cb-41fa-82b1-7d9689cf855a" /> |
-| Dark Mode                                    |
-| <img width="1359" height="548" alt="Screenshot 2025-07-21 002638" src="https://github.com/user-attachments/assets/5535da39-b7a5-49c5-b42f-91eb63b4c638" /> |
+### 🌞 Light Mode
+<img width="1360" height="542" alt="Screenshot 2025-07-21 002621" src="https://github.com/user-attachments/assets/ecf9dd4f-76cb-41fa-82b1-7d9689cf855a" /> 
+### 🌙 Dark Mode                                   |
+<img width="1359" height="548" alt="Screenshot 2025-07-21 002638" src="https://github.com/user-attachments/assets/5535da39-b7a5-49c5-b42f-91eb63b4c638" /> 
 
 ---
 
