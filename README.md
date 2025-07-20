@@ -25,7 +25,7 @@ Take Note is a **minimalistic yet powerful note-taking web app** built using **R
 * **Tailwind CSS** – Utility-first styling
 * **React Beautiful DnD** – For drag-and-drop functionality
 * **Lucide React** – Beautiful and modern icon library
-* **TypeScript ** – Strong typing support
+* **TypeScript** – Strong typing support
 
 ---
 
