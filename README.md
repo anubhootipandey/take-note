@@ -1,54 +1,113 @@
-# React + TypeScript + Vite
+# 📝 Take Note – A Modern Note-Taking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Take Note is a **minimalistic yet powerful note-taking web app** built using **React**, **Redux Toolkit**, and **Tailwind CSS**. It offers a smooth writing experience, drag-and-drop note management, dark mode, and a responsive UI optimized for productivity.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* 📂 **Folder-based organization** of notes
+* 📝 **Rich markdown-compatible editor** (customizable)
+* 🌙 **Dark/Light mode toggle**
+* ➕ **Create and manage notes quickly**
+* 📦 **Drag-and-drop support** to move notes between folders (via `react-beautiful-dnd`)
+* 🌟 **Redux Toolkit** for clean and scalable state management
+* 🧠 **Persisted state** for seamless user experience
+* 📱 **Fully responsive** and mobile-friendly design
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠️ Tech Stack
+
+* **React** – UI Library
+* **Redux Toolkit** – State management
+* **React Redux** – For connecting state to components
+* **Tailwind CSS** – Utility-first styling
+* **React Beautiful DnD** – For drag-and-drop functionality
+* **Lucide React** – Beautiful and modern icon library
+* **TypeScript (Optional)** – Strong typing support
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── Editor.tsx
+│   └── Sidebar.tsx
+│
+├── store/
+|   ├── foldersSlice.ts
+│   ├── notesSlice.ts
+│   ├── uiSlice.ts
+│   └── index.ts
+│
+├── types/
+|   ├── html2pdf.d.ts
+│   └── index.ts (RootState and custom types)
+│
+├── App.tsx
+└── index.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 💡 How It Works
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+* Notes are created inside active folders and assigned a unique UUID.
+* Drag-and-drop allows users to move notes across folders.
+* Global dark/light theme toggle using Tailwind’s dark mode class.
+* Redux slices manage notes, folders, and UI state.
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/take-note.git
+cd take-note
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
 ```
+
+---
+
+> ✨ Want to contribute? Open a pull request or issue!
+
+---
+
+## 📷 Screenshots
+
+| Light Mode                                    | Dark Mode                                    |
+| --------------------------------------------- | -------------------------------------------- |
+| ![light](https://via.placeholder.com/300x200) | ![dark](https://via.placeholder.com/300x200) |
+
+---
+
+## 🔮 Future Improvements
+
+* Markdown support
+* Search across notes
+* Cloud sync & backup
+* Authentication
+* Tags and filters
+
+---
+
+## 🧑‍💻 Author
+
+**Anubhooti Pandey**
+Full Stack Developer | Frontend Developer
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
