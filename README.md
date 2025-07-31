@@ -1,6 +1,6 @@
-# 📝 Take Note – A Modern Note-Taking App
+# 📝 Note Organizer – A Modern Note-Taking App
 
-Take Note is a **minimalistic yet powerful note-taking web app** built using **React**, **Redux Toolkit**, and **Tailwind CSS**. It offers a smooth writing experience, drag-and-drop note management, dark mode, and a responsive UI optimized for productivity.
+Note Organizer is a **minimalistic yet powerful note-taking web app** built using **React**, **Redux Toolkit**, and **Tailwind CSS**. It offers a smooth writing experience, drag-and-drop note management, dark mode, and a responsive UI optimized for productivity.
 
 ---
 
